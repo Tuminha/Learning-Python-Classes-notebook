@@ -51,7 +51,7 @@ Ok, so far so good! Let's take a look at what we've achieved and what's left to 
 1. ✅ Creating a simple class
 2. ✅ Class attributes and instance attributes
 3. ✅ Methods and the `self` parameter
-4. 🔶 Special methods (magic methods) - We've used `__init__`, but there's more to discover!
+4. ✅ Special methods (magic methods) - We've used `__init__`, `__str__`, `__repr__`, and `__eq__`
 5. ❌ Inheritance and polymorphism
 6. 🔶 Encapsulation and access modifiers - We've touched on this implicitly
 7. ✅ Class methods and static methods - We've used a static method
@@ -63,33 +63,36 @@ Ok, so far so good! Let's take a look at what we've achieved and what's left to 
 
 For the next steps in our journey, let's focus on:
 
-1. 🧙‍♂️ Special methods (magic methods): 
-   - Expand our `Book` class with more special methods like `__str__`, `__repr__`, and `__eq__`
-   
-2. 👨‍👧 Inheritance: 
+1. 👨‍👧 Inheritance: 
    - Create a subclass of `Book`, such as `Ebook` or `AudioBook`
 
-## 📚 Next Lesson: Special Methods and String Representation
+2. 🔒 Encapsulation and access modifiers:
+   - Dive deeper into encapsulation and learn about access modifiers
+
+3. 🧪 Property decorators:
+   - Learn how to use property decorators to manage attribute access
+
+4. 🔗 Composition and aggregation:
+   - Understand how to use composition and aggregation to build complex classes
+
+5. 🧩 Abstract classes and interfaces:
+   - Explore abstract classes and interfaces to enforce a contract for subclasses
+
+## 📚 Next Lesson: Inheritance and Polymorphism
 
 ### 🧠 What we're going to learn:
-Special Methods (Magic Methods) and String Representation
+Inheritance and Polymorphism
 
 ### 🏋️ Proposed exercise:
-Enhance your `Book` class by adding these special methods:
-
-- `__str__`: For a readable string representation of the book
-- `__repr__`: For a detailed string representation, useful for debugging
-- `__eq__`: To compare two books for equality based on their title and author
-
-Also, add a method to display the book's details in a formatted way.
+Create a subclass of `Book`, such as `Ebook` or `AudioBook`, and demonstrate how inheritance works. Implement polymorphism by overriding methods in the subclass.
 
 ### 🧪 Testing your implementation:
-Create multiple book instances, print them, and compare them to see your new methods in action!
+Create instances of both the base class and the subclass, and demonstrate polymorphism by calling overridden methods.
 
 ## 💡 Why This Matters
 
-This exercise will help you understand how special methods can make your classes more powerful and easier to use. It also introduces the concept of operator overloading (with `__eq__`), which is an important aspect of object-oriented programming in Python.
+This exercise will help you understand how inheritance allows you to create a hierarchy of classes that share a common interface. Polymorphism enables you to use a unified interface for different data types, making your code more flexible and reusable.
 
 ## 🚀 Ready for Takeoff!
 
-Let's dive into these magical methods and take our `Book` class to the next level! Remember, coding is an adventure - enjoy the journey of discovery! 🌟
+Let's dive into inheritance and polymorphism and take our `Book` class to the next level! Remember, coding is an adventure - enjoy the journey of discovery! 🌟
